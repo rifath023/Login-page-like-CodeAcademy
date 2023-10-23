@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 28%;
+    margin: 100px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+form label{
+    margin: 5px 0;
+}
+form input[type="text"],input[type="password"]{
+    margin: 5px 0 ;
+    height: 55px;
+    border: 0.5px solid #b8b8b85d;
+    border-radius: 3px;
+    padding: 0 15px ;
+    font-size: 20px;
+    font-family: "Nunitio",sans-serif;
+}
+form a{
+    margin: 10px 0;
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: bold;
+}
+form input[type="submit"]{
+    height: 50px;
+    background: rgb(134, 30, 231);
+    font-size: 20px;
+    font-family: "Nunitio",sans-serif;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: 0.1s ease;
+    height: 50px;
+    width: 90px;
+    border-radius: 27px;
+    margin-left: 35%;
+}
+form input[type="submit"]:hover{
+    background-color: aqua;
+    color: black;
+    box-shadow: var(--hover-shadow);
+    transform: translateY();
+}
+
+form input[type="submit"]:active{
+    background-color: red;
+}
+
+form input[type="submit"]:visited{
+    background-color: blue;
+}
